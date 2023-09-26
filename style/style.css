@@ -1,0 +1,69 @@
+
+
+  html {
+    font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high */
+    font-family: 'Times New Roman', Times, serif; /* this should be the rest of the output you got from Google Fonts */
+    background-color: black; /* note to lexi: please remember to do background colors for all yours webites */
+  }
+
+  h1 {
+    font-size: 60px;
+    text-align: center;
+    color: hotpink;
+    margin: 0;
+    padding: 20px;
+    
+  }
+  
+  p
+  {
+    font-size: 40px;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-align: center;
+    border: 1px purple;
+    color: hotpink;
+  }
+
+  li {
+    font-size: 20px;
+    line-height: 2;
+    letter-spacing: 1px;
+    text-align:left;
+    border: 1px limegreen;
+    color: limegreen;
+ /* this ones for the paragraph and list element dont forget this you doododhead */   
+  }
+
+   img {
+    /* for the image value in your index.html */
+    display: block;
+    margin: 0 auto;
+   }
+   
+
+   body { 
+    /*this is for the background of the website*/
+    width: auto;
+    margin:auto;
+   padding: 0 20px 20px 20px; 
+   border: 5px pink;
+   background-image:url("background.gif"); /*remember to SPECIFY url("") for every website you right*/
+  /*background-repeat: no-repeat; remove this comment if you need non repeating wallpapers*/
+   backface-visibility: visible; 
+  }
+
+   a {
+    font-size: 20px;
+    width: auto;
+    margin: auto;
+    color: orangered;
+    border: 1px green;
+    text-align: center;
+   }
+
+   dt{
+    text-align: center;
+    color: blueviolet;
+
+   }
