@@ -1,2 +1,2 @@
 # My-website
-yeah this builds my 90s inspired website
+should be able to work normally without problem (in case it doesn't make a folder named images and put all images other than background.gif in images and background.gif in style)
