@@ -5,11 +5,40 @@
  <meta name="viewport" content="width=device-width" />  
  <title>Lexi's website</title>
 </head>    
+
    <link href="style/style.css" rel="stylesheet" />
 
     <body>
-  
-    <hr/>
+      <h1>Time Below</h1>
+      <div class="hero">
+        <div class="container">
+          <div class="clock">
+            <span id="hrs">00</span>
+            <span>::</span>
+            <span id="min">00</span>
+            <span>::</span>
+            <span id="sec">00</span>
+          </div>
+        </div>    
+      </div>
+
+      <script>
+        
+      let hrs = document.getElementById("hrs")
+      let min = document.getElementById("min")
+      let sec = document.getElementById("sec")
+
+      setInterval(()=>{
+
+      let currentTime = new Date();
+
+      hrs.innerHTML = currentTime.getHours();
+      min.innerHTML = currentTime.getMinutes();
+      sec.innerHTML - currentTime.getSeconds();
+      },1000)
+      
+      </script>
+      <hr/>
     <h1>Hello Puppies welcome to my website</h1>
     <hr/>   
     <img src="images/zim.gif" alt="funny cat" 
@@ -22,10 +51,6 @@
      <img align="right" src="images/pepsi.gif" alt="there's supposed to be something here"
      height="200px"
      width="300px"/>  
-
-     <img align="right" src="images/Helios.png" alt="statue of Helios"
-     height="400px"
-     width="300px">
 
      <p>an about me</p>
 
